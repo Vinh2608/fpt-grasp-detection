@@ -1,7 +1,7 @@
-from model import ClipPredictor
+from model.model import ClipPredictor
 import clip
 from torch import nn, optim
-from dataset import Grasp_Dataset
+from dataset.dataset import Grasp_Dataset
 import tqdm
 import argparse
 import os
